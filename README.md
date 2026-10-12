@@ -68,42 +68,22 @@ $('#hold').on('click', () => {
         $('#score').text(score);
     }
 });
-<<<<<<< HEAD
-
-
-
-### Sprint 99
-
-Future improvements for Hold Your Poop.
-
-[View Sprint 99](https://github.com/yuto-nkc0621/hold-your-poop-game/milestones)
-
-
-### Lighthouse Results (Concept Version)
-
-=======
 ```
 
 ### Validation and Accessibility
 
 **Nu HTML Validator**
-- Concept Version: Add validation result
-- Full Game: Add validation result
+- Concept Version: Not recorded
+- Full Game: Not recorded
 
 **Lighthouse Results (Concept Version)**
->>>>>>> 8d5f93b (Update README)
 - Performance: 100
 - Accessibility: 63
 - Best Practices: 100
 - SEO: 90
-<<<<<<< HEAD
-=======
 
 **Lighthouse Results (Full Version)**
-- Performance: Not tested yet
-- Accessibility: Not tested yet
-- Best Practices: Not tested yet
-- SEO: Not tested yet
+- Not tested yet
 
 ### Sprint 99
 
@@ -119,4 +99,3 @@ Future improvements for Hold Your Poop:
 
 - [Concept Version](https://yuto-nkc0621.github.io/hold-your-poop-game/)
 - [Full Game](https://yuto-nkc0621.github.io/hold-your-poop-game/pages/full.html)
->>>>>>> 8d5f93b (Update README)
