@@ -1,0 +1,49 @@
+body {
+    background-color: beige;
+    font-family: Arial;
+    text-align: center;
+}
+
+header {
+    background-color: chocolate;
+    color: white;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    font-size: 18px;
+    margin: 10px;
+}
+
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid chocolate;
+}
+
+button {
+    background-color: chocolate;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: brown;
+}
+
+#poopMeter {
+    background-color: chocolate;
+    width: 0%;
+    height: 30px;
+}
+
+footer {
+    background-color: chocolate;
+    color: white;
+    padding: 10px;
+}
