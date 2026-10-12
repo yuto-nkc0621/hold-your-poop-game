@@ -68,3 +68,19 @@ $('#hold').on('click', () => {
         $('#score').text(score);
     }
 });
+
+
+
+### Sprint 99
+
+Future improvements for Hold Your Poop.
+
+[View Sprint 99](https://github.com/yuto-nkc0621/hold-your-poop-game/milestones)
+
+
+### Lighthouse Results (Concept Version)
+
+- Performance: 100
+- Accessibility: 63
+- Best Practices: 100
+- SEO: 90
