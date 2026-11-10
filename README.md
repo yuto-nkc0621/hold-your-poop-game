@@ -4,7 +4,7 @@
 ## Authorship
 - Author: Yuto Nakashima
 - GitHub: https://github.com/yuto-nkc0621
-- Date: October 2026
+- Date: November 2026
 - Version: 1.0
 
 ## User Story
