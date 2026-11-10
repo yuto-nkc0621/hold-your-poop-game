@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "PoopMaster",
+    "score": 90
+  },
+  {
+    "id": 2,
+    "name": "ToiletKing",
+    "score": 70
+  },
+  {
+    "id": 3,
+    "name": "MrPoop",
+    "score": 50
+  },
+  {
+    "id": 4,
+    "name": "BathroomHero",
+    "score": 30
+  },
+  {
+    "id": 5,
+    "name": "PoopRookie",
+    "score": 10
+  }
+]

@@ -19,24 +19,36 @@
         <h1>💩 Hold Your Poop - FULL GAME</h1>
 
         <nav>
-            <a href="../index.html">Concept</a>
-            <a href="full.html">Full Game</a>
-        </nav>
+    <a href="../index.html">Concept</a>
+    <a href="full.html">Full Game</a>
+
+    <!-- Admin only -->
+    <a href="admin.html" id="adminLink" style="display:none;">
+        Admin Dashboard
+    </a>
+</nav>
     </header>
 
     <main>
 
-        <!-- Player Name -->
-        <section>
-            <h2>Welcome!</h2>
+       <!-- authentication -->
+<section>
+    <h2>Welcome!</h2>
 
-            <p>Enter your name:</p>
+    <p>Username:</p>
+    <input type="text" id="username">
 
-            <input type="text" id="username">
-            <button id="login">Enter</button>
+    <p>Password:</p>
+    <input type="password" id="password">
 
-            <p id="greeting">Welcome, Guest!</p>
-        </section>
+    <br><br>
+
+    <button id="login">Sign In</button>
+    <button id="logout" style="display:none;">Sign Out</button>
+
+    <p id="greeting">Welcome, Guest!</p>
+    <p id="loginMessage"></p>
+</section>
 
         <!-- Game Board -->
         <section>

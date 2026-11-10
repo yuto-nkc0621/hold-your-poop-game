@@ -99,3 +99,75 @@ Future improvements for Hold Your Poop:
 
 - [Concept Version](https://yuto-nkc0621.github.io/hold-your-poop-game/)
 - [Full Game](https://yuto-nkc0621.github.io/hold-your-poop-game/pages/full.html)
+
+
+## dev|delta - Make Bravo Work
+
+This version expands the Hold Your Poop game with authentication,
+authorization, JSON data loading, CRUD operations, and an admin dashboard.
+
+### Features
+
+- User authentication with two test accounts
+- Role-based authorization (Admin and User)
+- Admin-only dashboard
+- Leaderboard with score tracking
+- CRUD operations for leaderboard scores
+- JSON data loading using fetch() and response.json()
+- Data persistence using sessionStorage
+- Application state management using JSON
+- Error handling for invalid data and login attempts
+
+### Test Accounts
+
+These accounts are for development and testing only.
+
+| Role | Username | Password |
+|------|----------|----------|
+| Admin | admin | admin123 |
+| User | user | user123 |
+
+### CRUD Operations
+
+- Create: A new score is saved after finishing a game.
+- Read: Scores are displayed on the leaderboard.
+- Update: Admin can edit existing scores.
+- Delete: Admin can delete scores.
+
+### Admin Dashboard
+
+The Admin Dashboard displays:
+
+- Administrator information
+- Leaderboard management
+- App statistics
+- Session information
+- Browser information
+- Session storage data
+- Application state in JSON format
+
+### Technologies
+
+- HTML
+- CSS
+- JavaScript
+- jQuery
+- Bootstrap
+- JSON
+- Fetch API
+- sessionStorage
+
+### How to Run
+
+1. Open the project using VS Code.
+2. Start Live Server.
+3. Open `pages/full.html`.
+4. Sign in using one of the test accounts.
+5. Play the game and save a score.
+6. Sign in as Admin to access the Admin Dashboard.
+
+### Security Note
+
+Authentication and authorization are implemented on the client side
+for educational purposes only. The test credentials are not secure
+and should not be used in a production application.
